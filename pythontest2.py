@@ -1,5 +1,3 @@
-
-    
 print("welcome to calculator")
 def add(x,y):
     answer = x+y
@@ -15,7 +13,6 @@ def divide(x,y):
     return answer
 
 try:
-    
     num1 = int(input("enter first number"))
     num2 = int(input("enter second number"))
 except ZeroDivisionError:
